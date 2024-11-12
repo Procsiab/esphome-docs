@@ -19,6 +19,8 @@ submit a feature request (see FAQ).
 | Supported units                       | Platform name       |  Supports receiver   |
 |                                       |                     |                      |
 +=======================================+=====================+======================+
+| Airton                                | ``airton``          | yes                  |
++---------------------------------------+---------------------+----------------------+
 | Ballu                                 | ``ballu``           | yes                  |
 +---------------------------------------+---------------------+----------------------+
 | Coolix                                | ``coolix``          | yes                  |
@@ -101,6 +103,12 @@ Configuration Variables:
 - **transmitter_id** (*Optional*, :ref:`config-id`): Manually specify the ID of the remote transmitter.
 
 **Specific configuration variables:**
+
+.. _airton:
+
+``airton`` **Climate**:
+
+The ``airton`` climate and protocol is implemented by RD1A1 remote command, and is present at least in Airton branded units and also in Ferroli's Aster lineup.
 
 .. _climate_ir_lg:
 
@@ -376,7 +384,8 @@ See Also
 - :doc:`/components/remote_receiver`
 - :doc:`/components/remote_transmitter`
 - :doc:`/components/sensor/index`
-- :apiref:`ballu.h <ballu/ballu.h>`,
+- :apiref:`airton.h <airton/airton.h>`,
+  :apiref:`ballu.h <ballu/ballu.h>`,
   :apiref:`climate_ir_lg.h <climate_ir_lg/climate_ir_lg.h>`
   :apiref:`coolix.h <coolix/coolix.h>`,
   :apiref:`daikin.h <daikin/daikin.h>`
