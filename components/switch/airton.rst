@@ -1,5 +1,5 @@
 Airton Climate Switches
-======================
+=======================
 
 .. seo::
     :description: Instructions for setting up option control switches for Airton IR remote climate devices.
